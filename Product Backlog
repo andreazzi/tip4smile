@@ -3,9 +3,32 @@
 Vision:
 	tip4smile is a simple, personal, fun and quick way of paying tip
 
+Prioritization in layers:
+
+|---------------| Basic flow: a client tip a waiter directly - no verification, validation or restriction
+
+
+
+Sprint 0 - Set up infra and basic flow - 3-Apr to 9-Apr
+
 As a client I want to tip without providing my contact info, so I do not need to maintain personal relationship with all waiters.
+	Given I am a client
+	when I open app
+	than I can choose the amount to tip.
+
+	Given I choose the amount to tip
+	when I identify the waiter
+	than the amount selected flows to the waiter.
 
 As a waiter I want to receive my tip personally, so I do not need to interact with the owner of the store/restaurant/bar.
+	Given I am a waiter
+	when I open app
+	than I see the total amount available.
+
+	Given that a client wants to tip me
+	when he/she selects me
+	than I see the amount tiped.
+
 
 As a waiter I want to know how much I got, so I can decide when is enough for the day.
 
@@ -13,7 +36,9 @@ As a client I want to choose the ammount to tip, so I can evaluate the service a
 
 As a waiter I want to withdraw the cash I got in a secury way, so I can use the money.
 
-As a waiter I want to send the cash I got to my bank account, si I can use the money as part of the salary.
+As a waiter I want to send the cash I got to my bank account, so I can use the money as part of the salary.
 
 As a client I want to use my credit card to tip, so I feel safier.
+
+As a client I want to be recognized with minimun or none action so I can tip quickly.
 
