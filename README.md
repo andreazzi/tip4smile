@@ -4,3 +4,5 @@ In the current digital transformation, is more and more common that the people u
 Structure:
 
 Product Backlog - contains the whole list list of user stories - prioritized
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
