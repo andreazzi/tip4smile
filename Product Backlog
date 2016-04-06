@@ -13,6 +13,7 @@ Prioritization in layers:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Sprint 1 - Set up infra and basic flow - 3-Apr to 9-Apr
 
+
 As a client I want to tip without providing my contact info, so I do not need to maintain personal relationship with all waiters.
 	Given I am a client
 	when I open app
@@ -30,6 +31,25 @@ As a waiter I want to receive my tip personally, so I do not need to interact wi
 	Given that a client wants to tip me
 	when he/she selects me
 	than I see the amount tiped.
+
+
+Done: 
+Installed nodeJS
+Node.js was installed at
+
+   /usr/local/bin/node
+
+npm was installed at
+
+   /usr/local/bin/npm
+
+Make sure that /usr/local/bin is in your $PATH.
+
+
+
+
+
+
 
 
 
